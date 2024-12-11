@@ -19,7 +19,7 @@ bool evaluate(const std::vector<int> &variables, unsigned long target, size_t id
               std::string expression, std::string &solution, bool isPartTwo);
 void get_input(std::fstream &input, EquationType &equations);
 
-int main([[maybe_unused]] int argc, char** argv)
+int main(int argc, char** argv)
 {
   if (argc < 2)
   {
